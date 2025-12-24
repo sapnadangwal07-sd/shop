@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>document</title>
+	<style>
+		*
+		{
+			padding: 0;
+			margin: 0;
+		}
+		body 
+		{
+			background-color: yellow;
+		}
+		.op 
+		{
+			background-color: black;
+			opacity: 40%;
+			position: sticky;
+			top: 0;
+			height: 50px;
+			width: 100%;
+			
+		}
+		ol 
+		{
+			display: inline-flex;
+		}
+		li 
+		{
+			list-style: none;
+			padding: 17px;
+			color: white;
+			opacity: 100%;
+			z-index: 9;
+		}
+		.op-1
+		{
+				margin-top: -50px;
+				position: sticky;
+				top:0 ;
+		}
+		.container img{height: 400px;
+			width: 500px;
+			margin-left: 900px;
+
+			
+		}
+		.container h1 {
+			margin-top: -200px;
+			margin-left: 100px;
+			color: white;
+		}
+		.container p{
+			margin-left: 100px;
+			color: white;
+		}
+		.cup{
+			height: 400px;
+			width: 100%;
+			background-color: white;
+			margin-top: 100px;
+		}
+		.cup img{
+			height: 300px;
+			width: 500px;
+			margin-top: 30px;
+		}
+		.cup h1{
+			font-family: sans-serif;
+			font-size: 1cm;
+			color: black;
+			margin-top: -200px;
+			margin-left: 700px;
+			/*width: 10px;*/
+		}
+		.cup p{
+			color: black;
+			margin-left: 600px;
+		}
+		.spoon{
+			height: 600px;
+			width: 100%;
+			background-color: yellow;
+		}
+		.spoon h1{
+			color: white;
+			font-size: 2cm;
+			text-align: center;
+		}
+		.spoon img{
+			height: 300px;
+			width: 300px;
+			/*border: px solid white;*/
+			margin: 100px;
+			margin-top: -10px;
+		}
+		.tiger{
+			height: 100px;
+			width: 200px;
+			/*border: 2px solid black;*/
+			color: white;
+			margin-left: 150px;
+			margin-top: -100px;
+		}
+		.lion{
+			height: 100px;
+			width: 200px;
+			/*border: 2px solid black;*/
+			color: white;
+			margin-left: 650px;
+			margin-top: -100px;
+			margin-left: ;
+		}
+		.beer{
+			height: 100px;
+			width: 200px;
+			/*border: 2px solid black;*/
+			color: white;
+			margin-left: 1170px;
+			margin-top: -100px;
+		}
+		.red{
+			height: 400px;
+			width: 100%;
+			background-color: white;
+		}
+		.red img{
+			width: 500px;
+			height: 350px;
+			margin-top: 20px;
+			margin-left: 900px;
+
+		}
+		.red h1{
+			
+
+			
+			position: absolute;
+			top: 1500px;
+			margin-left: 50px;
+		}
+		.red p{
+			margin-left: 55px;
+			margin-top: -160px;
+		}
+		.red button{
+			margin-left: 70px;
+			height: 50px;
+			width: 150px;
+			color: white;
+			background-color: orange;
+			border: 1px solid yellow;
+			font-size: 20px;
+		}
+		.heer{
+			height: 100px;
+			width: 100%;
+			background-color: yellow;
+		}
+		.heer h1{
+			text-align: center;
+			color: white;
+			font-size: 1cm;
+		}
+		.heer p{
+			text-align: center;
+			color: white;
+			bottom: 20px;
+		}
+		.heer img{
+			width: 300px;
+			height: 350px;
+			margin-left: 150px;
+			outline-offset: 3px;
+			outline: 3px double black;
+			}
+
+
+		.ten ol li{
+			display: inline-flex;
+			padding: 210px;
+			color: white;
+			font-size: 30px;
+			margin-top: -190px;
+
+		}
+		.ten button{
+			height: 50px;
+			width: 150px;
+			color: white;
+			background-color: cyan;
+			border-radius: 30px;
+			margin: 170px;
+			margin-top: -100px;
+			
+			
+
+		}
+	.nine{
+		background-color: white;
+		height: 600px;
+		width: 100%;
+	}
+	.nine h1{
+		text-align: center;
+	}
+	.nine p{
+		text-align: center;
+	}
+	.nine img{
+		width: 300px;
+		height: 350px;
+		margin-left: 150px;
+	}
+	.ice{
+		font-size: 30px;
+		margin-left: 150px;
+		margin-top: -50px;
+	}
+	.hot{
+		font-size: 30px;
+		margin-left: 650px;
+		margin-top: -40px;
+	}
+	.warm{
+		font-size: 30px;
+		margin-left: 1100px;
+		margin-top:-30px	}
+	.ring img{
+			width: 100%;
+			margin-top: -100px;
+
+		}
+		.ball{
+			height: 500px;
+			width: 100%;
+			background-color: black;
+			opacity: 90%;
+			margin-top: 10PX;
+			}
+			.cat{
+				position: absolute;
+				top: 3000px;
+				color: white;
+			
+				text-align: center;
+				margin-left: 200px;
+			}
+			.cat h2{ margin-top:50px;
+			font-size:1cm; }
+			.dog{
+				position: absolute;
+				top:3000px ;
+				color: white;
+				text-align: center;
+				margin-left: 600px;
+
+			}
+			.dog h2{
+				margin-top: 50px;
+				font-size: 1cm;
+			}
+			.elephant{
+				position: absolute;
+				top: 3040px;
+				color: white;
+				text-align: center;
+				margin-left: 1100px;
+
+			}
+			.elephant h1
+			{
+				text-align: right;
+				font-size: 1cm;
+			}
+			.fox{
+				height: 50px;
+				width: 290px;
+				background-color: cyan;
+				border: darkblue 1px solid;
+				position: absolute;
+				top: 3150px;
+				margin-left: 1100px;
+			}
+		.day{
+			height: 60px;
+			width: 1450px;
+			background-color: darkcyan;
+			color: white;
+			position: absolute;
+			top: 3400px;
+			border-radius: 5px;
+			margin-left: 30px;
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 1cm;
+			padding-top: 20px;
+			font-variant: small-caps;
+		}
+		.day:hover{
+			background-color: lightcyan;
+			border-radius:10px ;
+			color: black;
+		}
+
+	
+	
+	</style>
+		
+</head>
+<body>
+	<div class="op">
+		
+	</div>
+
+	<nav class="op-1">
+			<ol>
+				<li>home</li>
+				<li>About</li>
+				<li>Contact</li>
+				<li>More</li>
+			</ol>
+		</nav>
+
+	<div class="container"> 
+		<img src="C:\Users\SAPNA\Desktop\dog shop_files/puppy.png">
+		<h1>First I Want To Be A Veterinarian</h1><br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit, sed do eiusmod
+		tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam,
+		quis nostrud <br>exercitation ulla rept anim id est laborum.</p>
+	</div>
+	<div class="cup">
+		<img src="C:\Users\SAPNA\Documents\sapna\html&css/aaj.png">
+		<h1> As a veterinarian and<br> lover of animals</h1>
+<br>
+<p>lo sum dolor sit amet, consectetur adipisicin sum dolor sit ame lit, sed do eiusmod
+		tempor incididunt ut labore et dolo<br> sum dolor sit amet, consectetur adipisicin sum dolor sit ame li</p>
+	</div>
+
+	<div class="spoon">
+		<h1> TITLE </h1>
+		<br><br><br>
+		<img src="C:\Users\SAPNA\Desktop\dog shop_files/chewy-nPRK_w6tcQ4-unsplash.jpg">
+		<img src="C:\Users\SAPNA\Downloads/amy-treasure-50YQevDoVhw-unsplash.jpg">
+		<img src="C:\Users\SAPNA\Downloads/chewy-nPRK_w6tcQ4-unsplash.jpg">
+	</div>
+
+	<div class="tiger">lo sum dolor sit amet, consectetur adipisicin sum dolor sit ame lit, sed do eiusmod
+		tempor incididunt ut labore et</div>
+		<div class="lion">lo sum dolor sit amet, consectetur adipisicin sum dolor sit ame lit, sed do eiusmod
+		tempor incididunt ut labore et</div>
+	<div class="beer">lo sum dolor sit amet, consectetur adipisicin sum dolor sit ame lit, sed do eiusmod
+		tempor incididunt ut labore et</div>
+
+
+	<div class="red">
+		<img src="C:\Users\SAPNA\Desktop\dog shop_files/copy.jpg">
+		<h1> As a veterinarian and<br> lover of animals</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut<br> aliquip ex ea commodo
+		consequat.   </p>
+		<br><br>
+		<button> Our Service</button>
+	</div>
+
+	<div class="heer">
+		<h1>TITLE HERE</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut anim id est laborum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+		<br><br><br>
+		<img src="C:\Users\SAPNA\Downloads/enis-yavuz-KKtuRtGkDys-unsplash.jpg" > 
+		<img src="C:\Users\SAPNA\Downloads/anderson-w-rangel-9RAR6VmdoRw-unsplash.jpg"> 
+		<img src="C:\Users\SAPNA\Downloads/alvan-nee-8g0D8ZfFXyA-unsplash.jpg" >
+		
+		
+	</div>
+	<br>
+	<div class="ten">
+		<ol>
+			<li>$50</li>
+			<li>$30</li>
+			<li>$20</li>
+		</ol>
+		<button> Buy Now</button>
+		<button> Buy Now</button>
+		<button> Buy Now</button>
+	</div>
+	<div class="nine">
+		<br>
+		<h1>The Vetcare Team</h1>
+		<br><br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut lUt enim ad minim veniam,
+		quis nostrud exercitation <br>
+		ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis a anim id est laborum.</p>
+
+	<br>
+	<br>
+	<img src="C:\Users\SAPNA\Pictures\Screenshots/Screenshot 2025-07-26 212112.png">
+	<img src="C:\Users\SAPNA\Pictures\Screenshots/Screenshot 2025-07-26 212142.png">
+	<img src="C:\Users\SAPNA\Pictures\Screenshots/Screenshot 2025-07-26 212214.png">
+	</div>
+
+	<div class="ice"> Jennifer Mullen</div>
+	<!-- <br><br> -->
+	
+
+
+	<div class="hot">Sheeren Collins</div>
+
+
+
+
+	<div class="warm">Jennifer Mullan</div>
+
+
+
+	
+	<div class="ball"></div>
+	
+	<div class="cat">
+		<br><br><br><br><br>
+		<h2>About </h2>
+
+
+		Histroy<br>Our Teams<br>Brand Guideline<br>Teams&Condition<br>Privacy Policy
+	</div>
+	<div class="dog">
+		<br><br><br><br><br>
+		<h2>Services</h2>
+
+
+
+		How To order
+		<br>
+		Our Product<br>Order Status<br>Promo<br>Payment Method
+	</div>
+	<div class="elephant">
+		<br><br><br><br><br>
+		<h1>
+		Title Here</h1>
+		<br>
+		lorem lpsum available, but the majorit
+
+	</div>
+
+	<div class="day">
+		
+		submit here
+	</div>
+</body>
+</html>
+
+
